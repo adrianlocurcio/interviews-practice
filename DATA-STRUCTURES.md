@@ -34,6 +34,14 @@ Like stacks, are collection of elements. But unlike stacks, they follow the Fist
 principle. Elements added to the queue are pushed to the end, and only the element at the front of the queue
 is allowed to be removed.
 
+Posible operations could be:
+
+1. enqueue - add (store) an item to the queue.
+2. dequeue - Remove (and access) an item from the queue.
+3. peek - Get the element at the front of the queue without remove it.
+4. isFull - Checkis if the queue is full
+5. isEmpty - Checks if the queue is empty.
+
 ### Priority Queue
 
 Is similar to a Queue, but in this case, every element inside the priority queue has a priority value associated
@@ -44,15 +52,32 @@ If in any case the elements have same priority, they are served in the same way 
 
 A set is a data structure that can store any number of unique values in any order you wish.
 
+Posible operations could be:
+
+1. has - Check if the set has an element.
+2. values - Get set values.
+3. add - Add a value
+4. remove - Remove a value
+5. size - Get the Set size.
+
 ### Map
 
-Are data structures that store key-value pairs.
+Are data structures that store key-value pairs. It is also called "dictionary".
 
 ### Linked list
 
 A linked list is a linear data structure, in which the elements are not stored at contigous memory locations.
 The elements in a linked list are linked using pointers. Each element is called "Node", and each "Node" contains
 a data field and a reference (link) to the next node.
+
+Possible operations could be:
+
+1. add - Insert an element
+2. remove - Remove an element
+3. addAt - Add an element at given position
+4. removeAt - Remove an element at given position.
+5. reverse - Reverse a linked list.
+6. isEmpty - Check if a linked list is empty.
 
 ### Doubly Linked list
 
